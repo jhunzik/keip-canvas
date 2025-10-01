@@ -1,5 +1,4 @@
-import { Modal } from "@carbon/react"
-import { InlineLoadingStatus } from "@carbon/react/lib/components/InlineLoading/InlineLoading"
+import { Modal, TextInput } from "@carbon/react"
 import { useState } from "react"
 import { createPortal } from "react-dom"
 import { importFlowFromJson } from "../../../singletons/store/appActions"
